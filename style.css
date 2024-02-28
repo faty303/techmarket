@@ -158,6 +158,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 .header__background__top {
   width: 1200px;
   height: 42px;
@@ -342,11 +347,16 @@ table {
   font-size: 16px;
 }
 
+.main {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
 .main__card {
   width: 940px;
   height: 409px;
-  display: flex;
-  justify-content: center;
+
   display: grid;
   grid-template-columns: 300px 300px 300px;
   grid-template-rows: 123px 123px 123px;
