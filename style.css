@@ -179,7 +179,7 @@ table {
   justify-content: center;
   align-items: center;
 
-  background-color: rgb(235, 39, 13);
+  background-color: rgb(238, 54, 67);
 }
 .header__logo {
   color: #ebeaf3;
@@ -196,17 +196,15 @@ table {
   margin-left: 15px;
 }
 
-::placeholder {
-  color: rgb(255, 255, 255);
-}
 .input__search {
   width: 250px;
-  height: 42px;
+  height: 40px;
   background-color: rgb(33, 42, 73);
-
+  text-decoration: none;
   border: none;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 .header__links {
@@ -258,11 +256,11 @@ table {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding-left: 15px;
 }
 .header__intermag {
   width: 200px;
   height: 71px;
+  padding-left: 15px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-style: italic;
@@ -273,7 +271,7 @@ table {
   align-items: left;
 }
 .header__adress {
-  width: 350px;
+  width: 282px;
   height: 71px;
   display: flex;
   justify-content: center;
@@ -290,6 +288,9 @@ table {
   font-weight: 400;
   margin-bottom: 20px;
 }
+.header__phonenumber {
+  margin-left: 15px;
+}
 .header__street {
   text-shadow: 1px 1px 2px;
   font-family: Arial, Helvetica, sans-serif;
@@ -305,14 +306,23 @@ table {
 .header__reg {
   width: 121px;
   height: 45px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .header__registration {
   width: 150px;
   height: 45px;
   background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__registr {
   text-decoration: none;
-
+  color: black;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -330,4 +340,15 @@ table {
   color: #e3e2e9;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
+}
+
+.main__card {
+  width: 940px;
+  height: 409px;
+  display: flex;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 123px 123px 123px;
+  gap: 10px;
 }
