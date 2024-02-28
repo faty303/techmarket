@@ -137,6 +137,22 @@ input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: rgb(255, 255, 255);
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: rgb(255, 255, 255);
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: rgb(255, 255, 255);
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: rgb(255, 255, 255);
+}
 
 table {
   border-collapse: collapse;
@@ -144,13 +160,13 @@ table {
 }
 .header__background__top {
   width: 1200px;
-  height: 47px;
-  background-color: rgb(29, 34, 49);
+  height: 42px;
+  background-color: rgb(33, 42, 73);
 }
 
 .header__top {
   width: 940px;
-  height: 47px;
+  height: 42px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -158,12 +174,12 @@ table {
 }
 .header__logo {
   width: 220px;
-  height: 47px;
+  height: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
 
-  background-color: rgb(231, 14, 97);
+  background-color: rgb(235, 39, 13);
 }
 .header__logo {
   color: #ebeaf3;
@@ -176,14 +192,19 @@ table {
   justify-content: center;
   align-items: center;
 }
+.header__search {
+  margin-left: 15px;
+}
 
+::placeholder {
+  color: rgb(255, 255, 255);
+}
 .input__search {
-  width: 270px;
-  height: 47px;
-  text-decoration: none;
+  width: 250px;
+  height: 42px;
+  background-color: rgb(33, 42, 73);
+
   border: none;
-  background-color: rgb(29, 34, 49);
-  color: #e3e2e9;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -191,26 +212,44 @@ table {
 .header__links {
   display: flex;
   justify-content: space-around;
-  text-decoration: none;
-  border: none;
-  background-color: rgb(29, 34, 49);
-  color: #e3e2e9;
+  align-items: center;
+  width: 280px;
+  background-color: rgb(33, 42, 73);
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.bookmark {
+  color: #f6f6fa;
+  text-decoration: none;
+  border: none;
+}
+
+.cart {
+  color: #f6f6fa;
+  text-decoration: none;
+  border: none;
+}
 .header__checkout {
-  width: 120px;
-  height: 30px;
+  width: 150px;
+  height: 42px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  background-color: rgb(7, 145, 42);
+  background-color: rgb(99, 166, 62);
+}
+.header__order {
+  color: #ebeaf3;
+  font-family: Arial, Helvetica, sans-serif;
+
+  text-decoration: none;
+  border: none;
 }
 .header__frame {
   width: 1200px;
   height: 278px;
-  background-color: rgb(228, 233, 245);
+  background-color: #e4e9f5;
 }
 .header__info {
   width: 940px;
@@ -227,7 +266,7 @@ table {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-style: italic;
-  line-height: 30px;
+  line-height: 25px;
   color: rgb(231, 16, 16);
   display: flex;
   justify-content: left;
@@ -235,7 +274,7 @@ table {
 }
 .header__adress {
   width: 350px;
-  height: 150px;
+  height: 71px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -248,27 +287,44 @@ table {
   color: #e62d0c;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 21px;
-  font-style: bold;
   font-weight: 400;
-  border: #e3e2e9 solid 3px;
   margin-bottom: 20px;
 }
 .header__street {
   text-shadow: 1px 1px 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
 }
+
 .header__login {
+  width: 282px;
+  height: 47px;
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
+}
+.header__reg {
+  width: 121px;
+  height: 45px;
+  background-color: white;
+}
+.header__registration {
+  width: 150px;
+  height: 45px;
+  background-color: white;
+  text-decoration: none;
+
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header__nav {
   width: 940px;
   height: 60px;
-  background-color: rgb(29, 34, 49);
+  background-color: rgb(33, 42, 73);
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 20px auto 0px;
+  margin: 0px auto 0px;
 }
 .header__menu {
   color: #e3e2e9;
