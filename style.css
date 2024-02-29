@@ -362,4 +362,5 @@ table {
   grid-template-columns: 300px 300px 300px;
   grid-template-rows: 123px 123px 123px;
   gap: 10px;
+  grid-template-areas: a, b, c, d e f g h, j;
 }
