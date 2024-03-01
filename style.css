@@ -351,16 +351,34 @@ table {
 .main {
   display: flex;
   justify-content: center;
-
   align-items: center;
+  margin: 60px 0px 60px 0px;
 }
 .main__card {
   width: 940px;
   height: 409px;
-
   display: grid;
+  gap: 20px;
   grid-template-columns: 300px 300px 300px;
   grid-template-rows: 123px 123px 123px;
-  gap: 10px;
-  grid-template-areas: a, b, c, d e f g h, j;
+}
+.main__drill {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+._drel {
+  background-image: url(image/Layer99.png);
+}
+._orange {
+  background-color: #e62d0c;
+}
+
+._blue {
+  background-color: rgb(85, 203, 229);
+}
+
+._pink {
+  background-color: #c967a9;
 }
