@@ -354,6 +354,7 @@ table {
   align-items: center;
   margin: 60px 0px 60px 0px;
 }
+
 .main__card {
   width: 940px;
   height: 409px;
@@ -361,24 +362,36 @@ table {
   gap: 20px;
   grid-template-columns: 300px 300px 300px;
   grid-template-rows: 123px 123px 123px;
+  grid-template-areas:
+    "card__materials card__tools card__techniq"
+    "card__drill card__drill card__sales"
+    "card__drill card__drill card__delivery";
 }
-.main__drill {
+.main__menu {
+  font-size: 20px;
+}
+
+.card__materials {
+  background-color: rgb(243, 177, 9);
+}
+
+.card__tools {
+  background-color: rgb(85, 203, 229);
+}
+
+.card__techniq {
+  background-color: #c967a9;
+}
+.card__drill {
+  background-image: url(image/Layer99.png);
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 4;
 }
-._drel {
-  background-image: url(image/Layer99.png);
+.card__sales {
+  background-color: green;
 }
-._orange {
-  background-color: #e62d0c;
-}
-
-._blue {
-  background-color: rgb(85, 203, 229);
-}
-
-._pink {
-  background-color: #c967a9;
+.card__delivery {
+  background-color: rgb(243, 177, 9);
 }
