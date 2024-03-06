@@ -373,7 +373,6 @@ table {
   top: 20px;
   left: 23px;
   font-size: 20px;
-
   font-family: Arial, Helvetica, sans-serif;
   color: #e3e2e9;
 }
@@ -397,12 +396,18 @@ table {
 .card__immenu {
   display: block;
   position: relative;
-
-  left: 191px;
+  left: 213px;
+  bottom: 10px;
 }
 
 .card__materials {
   background-color: rgb(243, 177, 9);
+}
+.card__new {
+  display: block;
+  position: relative;
+  left: 230px;
+  bottom: 123px;
 }
 
 .card__tools {
@@ -419,9 +424,43 @@ table {
   grid-row-start: 2;
   grid-row-end: 4;
 }
-.card__drilltext {
-  font-size: 30px;
+
+.card__drilltexts {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: relative;
+  left: 23px;
+  top: 23px;
+  width: 240px;
+  height: 60px;
+}
+.card__drilltextp {
+  font-size: 25px;
   color: white;
+}
+.card__drilltextnmi {
+  width: 258px;
+  height: 24px;
+  font-size: 20px;
+  color: white;
+}
+
+.card__linkred {
+  text-decoration: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 24px;
+  top: 132px;
+  position: relative;
+  width: 192px;
+  height: 38px;
+  background-color: #e62d0c;
+  color: white;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .card__sales {
   background-color: green;
@@ -429,3 +468,14 @@ table {
 .card__delivery {
   background-color: rgb(243, 177, 9);
 }
+
+/* .goods {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0px 60px 0px;
+}
+.popular__goods {
+  width: 940px;
+  height: 427px;
+} */
