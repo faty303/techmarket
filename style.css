@@ -481,8 +481,34 @@ table {
   width: 940px;
   height: 427px;
 }
+
 .popular__title {
   width: 940px;
   height: 89px;
-  background-color: antiquewhite;
+  background-color: rgb(245, 245, 240);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popular__good {
+  width: 220px;
+  height: 318px;
+  display: flex;
+}
+.popular__goods_title {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.popular__good_all {
+  width: 192px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: white;
+  background-color: #e62d0c;
 }
