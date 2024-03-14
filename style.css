@@ -504,6 +504,10 @@ table {
   margin-top: 20px;
 }
 
+.popular__goodsnipperr {
+  display: block;
+  position: relative;
+}
 .popular__goods_title {
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
@@ -541,6 +545,19 @@ table {
   text-decoration: none;
   border: none;
 }
+.card__new_left {
+  display: block;
+  position: relative;
+  left: 75px;
+  bottom: 3px;
+}
+.card__new_right {
+  display: block;
+  position: relative;
+  left: 75px;
+  bottom: 4px;
+}
+
 .popular__price {
   display: block;
   width: 141px;
@@ -576,6 +593,7 @@ table {
 .popular__companies {
   width: 940px;
   height: 330px;
+  margin-top: 20px;
   display: grid;
   gap: 20px;
   grid-template-columns: 220px 220px 220px 220px;
@@ -585,4 +603,44 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 2px solid rgb(249, 245, 240);
+}
+.services {
+  width: 1200px;
+  height: 522px;
+  background: rgb(222, 232, 241);
+  margin-top: 70px;
+  padding-left: 130px;
+}
+.services__serv {
+  margin-top: 64px;
+}
+.services__servic {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.services__tagline {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.services__deliv {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.services__delivery {
+  width: 240px;
+  height: 185px;
+  display: flex;
+  flex-direction: column;
+}
+.services__DGK {
+  border: none;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.services__credit_right {
+  margin-left: 80px;
 }
