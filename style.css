@@ -614,12 +614,15 @@ table {
 }
 .services__serv {
   margin-top: 64px;
+  display: flex;
+  flex-direction: column;
 }
 .services__servic {
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
 }
 .services__tagline {
+  margin-top: 20px;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -636,11 +639,56 @@ table {
   flex-direction: column;
 }
 .services__DGK {
+  width: 240px;
+  height: 61px;
   border: none;
   text-decoration: none;
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
 }
 .services__credit_right {
-  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+.services__credit {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.services__credit_cons {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 30px;
+}
+.services__bid {
+  width: 192px;
+  height: 38px;
+  margin-top: 30px;
+  background: #e62d0c;
+  text-decoration: none;
+  border: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+.tehnomart__services {
+  width: 940px;
+  height: 356px;
+  margin-top: 70px;
+}
+.tehnomart__company {
+  width: 451px;
+  height: 318px;
+}
+.tehnomart__title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+.tehnomart__tagline {
+  font-family: Arial, Helvetica, sans-serif;
 }
