@@ -610,9 +610,12 @@ table {
   height: 522px;
   background: rgb(222, 232, 241);
   margin-top: 70px;
+  box-sizing: border-box;
   padding-left: 130px;
 }
 .services__serv {
+  width: 940px;
+
   margin-top: 64px;
   display: flex;
   flex-direction: column;
@@ -632,6 +635,9 @@ table {
   flex-direction: row;
   justify-content: flex-start;
 }
+.services__delivery a {
+  color: #c967a9;
+}
 .services__delivery {
   width: 240px;
   height: 185px;
@@ -643,10 +649,10 @@ table {
   height: 61px;
   border: none;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(24, 24, 57);
-  color: white;
+  color: rgb(217, 209, 209);
   display: flex;
   justify-content: left;
   align-items: center;
@@ -681,6 +687,7 @@ table {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
 }
+
 .tehnomart__services {
   width: 940px;
   height: 356px;
@@ -689,7 +696,9 @@ table {
 }
 .tehnomart__company {
   width: 451px;
-  height: 318px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
 }
 .tehnomart__title {
   font-family: Arial, Helvetica, sans-serif;
@@ -697,4 +706,35 @@ table {
 }
 .tehnomart__tagline {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin-top: 20px;
+  line-height: 20px;
+}
+.tehnomart__taglines {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin-top: 20px;
+  line-height: 20px;
+}
+.tehnomart__trans {
+  font-size: 20px;
+  margin-top: 15px;
+}
+.tehnomart__details {
+  width: 200px;
+  height: 38px;
+  margin-top: 20px;
+  background: #e62d0c;
+  border: none;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+.tehnomart__map {
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
 }
