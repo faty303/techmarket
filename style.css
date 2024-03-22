@@ -498,13 +498,9 @@ table {
   height: 318px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
   border: 2px solid rgb(249, 245, 240);
   margin-top: 20px;
-}
-.popular__good-frame {
-  display: block;
   position: relative;
 }
 
@@ -527,6 +523,14 @@ table {
   background-color: #e62d0c;
   margin-right: 19px;
 }
+.good__name {
+  width: 185px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
 .popular__goodname {
   width: 185px;
   height: 43px;
@@ -534,6 +538,7 @@ table {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
+
 .popular__priceold {
   color: gray;
   text-decoration: line-through;
@@ -545,17 +550,30 @@ table {
   text-decoration: none;
   border: none;
 }
+.popular__goodsnipper {
+  width: 144px;
+  height: 128px;
+  position: relative;
+  display: block;
+  top: 29px;
+  left: 40px;
+}
+.popular__goodsnipper_width {
+  width: 184px;
+  height: 128px;
+  position: relative;
+  display: block;
+  top: 29px;
+  left: 40px;
+}
 .card__new_left {
   display: block;
-  position: relative;
-  left: 75px;
-  bottom: 3px;
-}
-.card__new_right {
-  display: block;
-  position: relative;
-  left: 75px;
-  bottom: 4px;
+  position: absolute;
+  width: 70px;
+
+  top: 0;
+  right: 0;
+  z-index: 1;
 }
 
 .popular__price {
