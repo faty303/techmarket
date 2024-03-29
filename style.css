@@ -543,9 +543,7 @@ table {
   color: gray;
   text-decoration: line-through;
 }
-/* .popular__price {
-  display: inline-block;
-} */
+
 .popular__prices {
   text-decoration: none;
   border: none;
@@ -685,6 +683,24 @@ table {
   font-size: 30px;
   margin-bottom: 30px;
 }
+#id1 {
+  display: none;
+}
+#id2 {
+  display: none;
+}
+#id3 {
+  display: none;
+}
+#id1:target {
+  display: block;
+}
+#id2:target {
+  display: block;
+}
+#id3:target {
+  display: block;
+}
 
 .services__credit_cons {
   font-size: 15px;
@@ -711,6 +727,7 @@ table {
   height: 356px;
   margin-top: 70px;
   display: flex;
+  margin-bottom: 30px;
 }
 .tehnomart__company {
   width: 451px;
@@ -753,6 +770,36 @@ table {
 }
 .tehnomart__map {
   margin-left: 150px;
+
   display: flex;
   flex-direction: column;
+}
+.map__info {
+  margin-top: 25px;
+  width: 300px;
+  height: 38px;
+  text-decoration: none;
+  border: none;
+  background-color: #e62d0c;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__logo {
+  width: 1200px;
+  height: 200px;
+  background-color: #32425c;
+}
+.footer__soc {
+  width: 1200px;
+  height: 100px;
+  background: #293449;
 }
