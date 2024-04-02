@@ -672,23 +672,25 @@ table {
   display: flex;
   justify-content: left;
   align-items: center;
+  padding-left: 15px;
 }
 .services__delivery_right {
-  width: 619px;
+  width: 480px;
   margin-left: 60px;
   display: flex;
   justify-content: flex-start;
   background-image: url(/image/Layer\ dostavka.png);
 }
 .services__guarantee_right {
-  width: 619px;
+  width: 460px;
+  height: 180px;
   margin-left: 60px;
   display: flex;
   justify-content: flex-start;
   background-image: url(/image/Layer\ garantie.png);
 }
 .services__credit_right {
-  width: 619px;
+  width: 460px;
   margin-left: 60px;
   display: flex;
   justify-content: flex-start;
@@ -696,12 +698,14 @@ table {
 .services__credit_cons {
   display: flex;
   width: 331px;
+  margin-top: 20px;
+  font-size: 30px;
 }
 
 .services__credit {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
 }
+
 #id1 {
   display: none;
 }
