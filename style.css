@@ -624,14 +624,13 @@ table {
 .services {
   width: 1200px;
   height: 522px;
-  background: rgb(222, 232, 241);
+  background: rgb(243, 249, 255);
   margin-top: 70px;
   box-sizing: border-box;
   padding-left: 130px;
 }
 .services__serv {
   width: 940px;
-
   margin-top: 64px;
   display: flex;
   flex-direction: column;
@@ -674,20 +673,29 @@ table {
   align-items: center;
   padding-left: 15px;
 }
+.services__DGK:hover {
+}
+.services__DGK:hover {
+  background: white;
+  color: #293449;
+  border: solid red 1px;
+}
 .services__delivery_right {
-  width: 480px;
-  margin-left: 60px;
-  display: flex;
-  justify-content: flex-start;
-  background-image: url(/image/Layer\ dostavka.png);
+  width: 820px;
+  height: 283px;
+}
+
+.delivery__right {
+  width: 300px;
+  margin-left: 80px;
 }
 .services__guarantee_right {
-  width: 460px;
+  width: 600px;
   height: 180px;
   margin-left: 60px;
   display: flex;
-  justify-content: flex-start;
-  background-image: url(/image/Layer\ garantie.png);
+  justify-content: flex-end;
+  background: url(/image/Layer\ garantie.png) top 0 right 0 no-repeat;
 }
 .services__credit_right {
   width: 460px;
@@ -697,13 +705,16 @@ table {
 }
 .services__credit_cons {
   display: flex;
-  width: 331px;
+  width: 300px;
   margin-top: 20px;
-  font-size: 30px;
+  font-size: 11px;
+  line-height: 25px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .services__credit {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
 }
 
 #id1 {
@@ -725,12 +736,6 @@ table {
   display: block;
 }
 
-.services__credit_cons {
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 30px;
-  font-size: 13px;
-}
 .services__bid {
   width: 192px;
   height: 38px;
@@ -794,9 +799,19 @@ table {
 }
 .tehnomart__map {
   margin-left: 150px;
-
   display: flex;
   flex-direction: column;
+}
+.map__contacts {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.map__text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 20px;
 }
 .map__info {
   margin-top: 25px;
