@@ -339,6 +339,9 @@ table {
   justify-content: center;
   align-items: center;
 }
+.header__reg :hover {
+  background: url(/image/icon-login-gray.png) no-repeat top 0 left 0;
+}
 
 .header__registration {
   width: 150px;
