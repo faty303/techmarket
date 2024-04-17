@@ -614,6 +614,7 @@ table {
   top: 29px;
   left: 40px;
 }
+
 .popular__goodsnipper_width {
   width: 184px;
   height: 128px;
@@ -622,6 +623,7 @@ table {
   top: 29px;
   left: 40px;
 }
+
 .card__new_left {
   display: block;
   position: absolute;
@@ -655,7 +657,7 @@ table {
   content: "";
   position: absolute;
   right: 0;
-  top: 18px;
+  top: 20px;
   border-bottom: #ffffff 20px solid;
   border-left: #e62d0c 20px solid;
 }
@@ -672,12 +674,21 @@ table {
   grid-template-columns: 220px 220px 220px 220px;
   grid-template-rows: 145px 145px 145px 145px;
 }
+.popular__companies :hover {
+  background-color: white;
+  box-shadow: 1px 1px 5px 3px rgb(228, 227, 227);
+}
+.popular__companies :active {
+  opacity: 0.5;
+}
+
 .popular__company {
   display: flex;
   justify-content: center;
   align-items: center;
   border: 2px solid rgb(249, 245, 240);
 }
+
 .services {
   width: 1200px;
   height: 522px;
@@ -739,6 +750,10 @@ table {
 .services__delivery_right {
   width: 820px;
   height: 283px;
+  margin-left: 60px;
+  display: flex;
+  justify-content: flex-end;
+  background: url(/image/Layer\ dostavka.png) top 80px right 40% no-repeat;
 }
 
 .delivery__right {
@@ -759,6 +774,7 @@ table {
   display: flex;
   justify-content: flex-start;
 }
+
 .services__credit_cons {
   display: flex;
   width: 300px;
@@ -815,8 +831,8 @@ table {
   margin-bottom: 30px;
 }
 .tehnomart__company {
-  width: 451px;
-  height: 340px;
+  width: 480px;
+  height: 400px;
   display: flex;
   flex-direction: column;
 }
