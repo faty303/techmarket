@@ -557,30 +557,25 @@ table {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   border: 2px solid rgb(249, 245, 240);
   margin-top: 20px;
   position: relative;
-}
-.popular__goodframe_one {
-  width: 220px;
-  height: 128px;
-  background-image: url(/image/snippet-1.png);
-  display: block;
-}
-
-.popular__goodsnipper_width {
-  width: 184px;
-  height: 128px;
-  position: relative;
-  display: block;
-  top: 29px;
-  left: 40px;
+  padding-bottom: 21px;
 }
 
 .button__snipper_width {
+  padding-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.shapez {
+  position: relative;
+  top: 24px;
+  right: 38px;
+  opacity: 0.5;
 }
 
 .button__width {
@@ -588,21 +583,38 @@ table {
   height: 38px;
   background-color: rgb(99, 166, 62);
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   margin-bottom: 10px;
   color: white;
   text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+.button__width:hover {
+  background-color: springgreen;
+}
+.button__width:active {
+  background-color: rgb(81, 133, 52);
 }
 .buton__snipper {
   width: 135px;
   height: 38px;
-  border: 3px solid rgb(99, 166, 62);
+  border: 2px solid rgb(99, 166, 62);
   display: flex;
   justify-content: center;
   align-items: center;
   color: #1b1c1d;
   text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+.buton__snipper:hover {
+  border: 2px solid rgb(50, 66, 92);
+}
+.buton__snipper:active {
+  border: 2px solid rgb(169, 169, 169);
+  color: rgba(169, 169, 169);
 }
 
 .popular__goods_title {
@@ -654,8 +666,7 @@ table {
   height: 128px;
   position: relative;
   display: block;
-  top: 29px;
-  left: 40px;
+  top: 20px;
 }
 
 .card__new_left {
@@ -708,19 +719,20 @@ table {
   grid-template-columns: 220px 220px 220px 220px;
   grid-template-rows: 145px 145px 145px 145px;
 }
-.popular__companies :hover {
-  background-color: white;
-  box-shadow: 1px 1px 5px 3px rgb(228, 227, 227);
-}
-.popular__companies :active {
-  opacity: 0.5;
-}
 
 .popular__company {
   display: flex;
   justify-content: center;
   align-items: center;
   border: 2px solid rgb(249, 245, 240);
+  box-shadow: white;
+}
+.popular__company:hover {
+  background-color: white;
+  box-shadow: 1px 1px 5px 3px rgb(228, 227, 227);
+}
+.popular__company:active {
+  opacity: 0.5;
 }
 
 .services {
@@ -1046,6 +1058,17 @@ table {
   justify-content: center;
   align-items: center;
   border: 2px solid black;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.center__soc:hover {
+  width: 44px;
+  height: 44px;
+  background-color: #f50808;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(250, 9, 9);
   border-radius: 50%;
   margin-left: 10px;
 }
