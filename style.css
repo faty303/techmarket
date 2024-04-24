@@ -563,6 +563,33 @@ table {
   position: relative;
   padding-bottom: 21px;
 }
+.popular__good_frameone {
+  width: 220px;
+  height: 318px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid rgb(249, 245, 240);
+  margin-top: 20px;
+  position: relative;
+  padding-bottom: 21px;
+}
+.popular__good_frameone:hover .snipper__one {
+  display: none;
+}
+.popular__good_frameonebut {
+  width: 220px;
+  height: 318px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid rgb(249, 245, 240);
+  margin-top: 20px;
+  position: relative;
+  padding-bottom: 21px;
+}
 
 .button__snipper_width {
   padding-top: 30px;
