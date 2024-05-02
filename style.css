@@ -574,11 +574,13 @@ table {
   margin-top: 20px;
   position: relative;
   padding-bottom: 21px;
+  background: url(/image/snippet-1.png) no-repeat top 0 left 25%;
 }
 .popular__good_frameone:hover .snipper__one {
   display: none;
 }
-.popular__good_frameonebut {
+
+.popular__good_frametvo {
   width: 220px;
   height: 318px;
   display: flex;
@@ -589,6 +591,33 @@ table {
   margin-top: 20px;
   position: relative;
   padding-bottom: 21px;
+  background: url(/image/snippet-2.png) no-repeat top 0 left 35%;
+}
+.popular__good_framethree {
+  width: 220px;
+  height: 318px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid rgb(249, 245, 240);
+  margin-top: 20px;
+  position: relative;
+  padding-bottom: 21px;
+  background: url(/image/snippet-3.png) no-repeat top 0 left 50%;
+}
+.popular__good_framefour {
+  width: 220px;
+  height: 318px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid rgb(249, 245, 240);
+  margin-top: 20px;
+  position: relative;
+  padding-bottom: 21px;
+  background: url(/image/snippet-4.png) no-repeat top 0 left 50%;
 }
 
 .button__snipper_width {
@@ -596,6 +625,7 @@ table {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: url(/image/Shape-z.png) no-repeat top 45% left 23%;
 }
 
 .shapez {
@@ -663,20 +693,14 @@ table {
   background-color: #e62d0c;
   margin-right: 19px;
 }
-.good__name {
-  width: 185px;
-  height: 120px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
+
 .popular__goodname {
   width: 185px;
   height: 43px;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  padding-top: 45px;
 }
 
 .popular__priceold {
