@@ -247,6 +247,7 @@ table {
 .header__bookmark {
   text-align: center;
   width: 140px;
+
   background: url(./image/icon-bookmark.png) no-repeat top 0 left 0;
 }
 
@@ -261,23 +262,31 @@ table {
   background: url(./image/icon-cart-gray.png) no-repeat top 0 left 0;
 }
 
-.header__background_top:hover .header__bookmark {
+.header__bookmark:hover {
   background: url(./image/Shape\ gray.png) no-repeat top 0 left 0;
 }
-.header__background_top:hover .header__cart {
-  background: url(./image/Shape\ gray.png) no-repeat top 0 left 0;
+.header__bookmark:active {
+  background: url(./image/icon-bookmark.png) no-repeat top 0 left 0 #000000;
+  opacity: 0.5;
 }
-.header__background_top:hover .header__checkout {
+
+.header__cart:hover {
+  background: url(./image/Shapewhite.png) no-repeat top 0 left 0;
+}
+.header__cart:active {
+  background: url(./image/icon-cart-gray.png) no-repeat top 0 left 0;
+  opacity: 0.5;
+}
+
+.header__checkout:hover {
   background-color: #5fbb2d;
 }
-.header__background_top:active .header__checkout {
+.header__checkout:active {
   background-color: rgb(83, 140, 52);
+  opacity: 0.5;
 }
-.header__background_top:active .header__links {
-  background-color: #161d29;
-}
-.header__background_top:active .header__bookmark {
-  background-color: #161d29;
+
+.input__search:focus {
 }
 
 .cart {
@@ -368,10 +377,11 @@ table {
 .header__reg {
   width: 121px;
   height: 45px;
-  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url(/image/icon-login-gray.png) no-repeat top 40% left 5%,
+    rgb(255, 255, 255);
 }
 .header__reg :hover {
   background: url(/image/icon-login-gray.png) no-repeat top 0 left 0;
@@ -420,8 +430,6 @@ table {
 }
 .header__menu :active {
   color: gray;
-}
-.id5 {
 }
 
 .main {
