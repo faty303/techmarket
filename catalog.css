@@ -483,15 +483,19 @@ table {
   height: 720px;
 }
 .filter {
-  width: 220px;
+  width: 200px;
   height: 38px;
   display: block;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
   background-color: #f7f3ec;
   font-family: Arial, Helvetica, sans-serif;
 }
 .weight {
   font-size: 20px;
   font-weight: 700;
+  margin-bottom: 20px;
 }
 .filter__price {
   font-family: Arial, Helvetica, sans-serif;
@@ -520,11 +524,48 @@ table {
   align-items: start;
 }
 .power {
-  font-size: 10px;
+  font-size: 15px;
+}
+.filter__end {
+  width: 200px;
+  height: 38px;
+  margin-top: 30px;
+  border: 3px solid #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
 }
 
 .catalog__sorting {
   width: 700px;
+}
+.sorting {
+  width: 700px;
+  height: 38px;
+  margin-left: 15px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  background: url(/image/Shape-houm.png) no-repeat top 8px right 6%,
+    url(/image/Shape-end.png) no-repeat top 8px right 2%, #f7f3ec;
+}
+
+.sorting__snippers {
+  margin-left: 130px;
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.snip {
+  text-decoration: none;
+  border: none;
+  color: #000000;
+}
+.snip:hover {
+  color: #e62d0c;
 }
 .catalog__all {
   width: 720px;
@@ -537,7 +578,16 @@ table {
   grid-template-rows: 318px 318px 318px;
   margin-top: 20px; */
 }
-.popular__good_frameone {
+.popular__goodname {
+  width: 185px;
+  height: 43px;
+  font-size: 18px;
+  font-family: sans;
+  font-weight: bold;
+  text-align: center;
+}
+
+.popular__good_frame {
   width: 220px;
   height: 318px;
   display: flex;
@@ -545,18 +595,20 @@ table {
   justify-content: space-between;
   align-items: center;
   border: 2px solid rgb(249, 245, 240);
-
   position: relative;
   padding-bottom: 21px;
+  margin-bottom: 20px;
+  margin-left: 15px;
   background: url(/image/snippet-2-1.png) no-repeat top 0 left 25%;
 }
-.popular__good_frameone:hover {
+.popular__good_frame:hover {
   background: none;
   box-shadow: 1px 1px 5px 3px rgb(228, 227, 227);
 }
-.popular__good_frameone:hover .button__snipper_width {
+.popular__good_frame:hover .button__snipper_width {
   opacity: 1;
 }
+
 .popular__good_frametwo {
   width: 220px;
   height: 318px;
@@ -564,6 +616,8 @@ table {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
   border: 2px solid rgb(249, 245, 240);
   position: relative;
   background: url(/image/snippet-2-2.png) no-repeat top 0 left 25%;
@@ -583,6 +637,8 @@ table {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
   border: 2px solid rgb(249, 245, 240);
   position: relative;
   background: url(/image/snippet-2-3.png) no-repeat top 0 left 27%,
@@ -825,6 +881,7 @@ table {
   margin-top: 40px;
   background-color: #f1f5f7;
   display: flex;
+  margin: 0 auto;
   flex-direction: column;
   justify-content: center;
 }
@@ -833,6 +890,7 @@ table {
   font-size: 30px;
   font-family: cuprum;
   padding-top: 20px;
+  padding-left: 130px;
 }
 
 .button__text {
@@ -840,6 +898,7 @@ table {
   font-size: 13px;
   font-family: PT Sans;
   line-height: 20px;
+  padding-left: 130px;
 }
 
 .footer {
