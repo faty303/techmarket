@@ -159,6 +159,7 @@ input[type="search"]::-webkit-search-results-decoration {
   font-size: medium;
   font-weight: normal;
 } */
+
 @font-face {
   src: url(https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400..700;1,400..700&display=swap);
   font-family: "Cuprum";
@@ -504,13 +505,9 @@ table {
   font-weight: 700;
   height: 206px;
   margin-top: 20px;
-}
-.filter__price::after {
-  position: absolute;
-  content: " ";
-  width: 220px;
-  height: 2px;
-  background-color: #f7f3ec;
+  position: relative;
+  border-bottom: #f7f3ec 3px solid;
+  margin-bottom: 20px;
 }
 
 .filter__goods {
@@ -694,7 +691,7 @@ table {
   content: "";
   position: absolute;
   right: 0;
-  top: 20px;
+  top: 18px;
   border-bottom: #ffffff 20px solid;
   border-left: #e62d0c 20px solid;
 }
