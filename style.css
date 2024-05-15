@@ -513,24 +513,23 @@ table {
   background-color: #c967a9;
 }
 .card__drill {
-  background-image: url(image/Layer99.png);
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 4;
 }
-
-.card__drilltexts {
+.slider {
+  position: relative;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  position: relative;
   left: 23px;
   top: 23px;
-  width: 240px;
-  height: 60px;
 }
+
 .card__drilltextp {
+  position: absolute;
+  top: 10px;
   font-size: 25px;
   color: white;
 }
@@ -539,6 +538,8 @@ table {
   height: 24px;
   font-size: 20px;
   color: white;
+  position: absolute;
+  top: 50px;
 }
 
 .card__linkred {
@@ -548,7 +549,7 @@ table {
   align-items: center;
   justify-content: center;
   left: 24px;
-  top: 132px;
+  top: -100px;
   position: relative;
   width: 192px;
   height: 38px;
