@@ -513,27 +513,61 @@ table {
   background-color: #c967a9;
 }
 .card__drill {
+  width: 620px;
+  height: 266px;
+  position: relative;
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 4;
 }
 .slider {
-  position: relative;
+  width: 640px;
+  height: 266px;
+}
+.owl-nav {
+  position: absolute;
+  width: 580px;
+  height: 39px;
   display: flex;
   justify-content: space-between;
-  flex-direction: column;
-  left: 23px;
-  top: 23px;
+  margin-left: 20px;
+  top: 90px;
+  font-size: 90px;
+  color: white;
+}
+.owl-dots {
+  position: absolute;
+  width: 30px;
+  height: 10px;
+  top: 220px;
+  left: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.owl-dot span {
+  display: block;
+  width: 10px;
+  height: 10px;
+
+  background-color: #ebeaf3;
+  border: 1px #ebeaf3 solid;
+  border-radius: 50%;
+}
+.owl-dots .active span {
+  background-color: #e62d0c;
 }
 
 .card__drilltextp {
+  display: block;
   position: absolute;
   top: 10px;
   font-size: 25px;
   color: white;
 }
 .card__drilltextnmi {
+  display: block;
+  position: absolute;
   width: 258px;
   height: 24px;
   font-size: 20px;
@@ -549,8 +583,8 @@ table {
   align-items: center;
   justify-content: center;
   left: 24px;
-  top: -100px;
-  position: relative;
+  top: 200px;
+  position: absolute;
   width: 192px;
   height: 38px;
   background-color: #e62d0c;
@@ -1221,4 +1255,10 @@ table {
 }
 .soc__mail:active {
   color: rgb(245, 8, 8);
+}
+
+@media (max-width: 900px) {
+  .header__nav {
+    display: none;
+  }
 }
