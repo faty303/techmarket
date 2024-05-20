@@ -314,6 +314,35 @@ table {
 .header__order:active {
   color: #ebeaf3;
 }
+.burger {
+  width: 15px;
+  height: 13px;
+  position: relative;
+}
+.burger__button {
+  position: absolute;
+  width: 15px;
+  height: 1px;
+  top: 48%;
+  background: white;
+}
+.burger::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 15px;
+  height: 1px;
+  background: white;
+}
+.burger::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 15px;
+  height: 1px;
+  background: white;
+}
+
 .header__frame {
   width: 1200px;
   height: 278px;
@@ -1407,7 +1436,7 @@ table {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0 300px;
+    margin: 0 auto;
   }
   .header__intermag {
     width: 170px;
