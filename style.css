@@ -185,6 +185,8 @@ table {
   width: 1200px;
   height: 42px;
   background-color: rgb(33, 42, 73);
+  display: flex;
+  justify-content: space-between;
 }
 
 .header__top {
@@ -313,34 +315,6 @@ table {
 }
 .header__order:active {
   color: #ebeaf3;
-}
-.burger {
-  width: 15px;
-  height: 13px;
-  position: relative;
-}
-.burger__button {
-  position: absolute;
-  width: 15px;
-  height: 1px;
-  top: 48%;
-  background: white;
-}
-.burger::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  width: 15px;
-  height: 1px;
-  background: white;
-}
-.burger::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  width: 15px;
-  height: 1px;
-  background: white;
 }
 
 .header__frame {
@@ -1286,29 +1260,35 @@ table {
   color: rgb(245, 8, 8);
 }
 
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .header {
     width: 1024px;
     display: flex;
     align-items: center;
     flex-direction: column;
   }
+
   .header__background_top {
     max-width: 100%;
-    height: 40px;
+    height: 80px;
     background-color: rgb(33, 42, 73);
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .header__top {
+    max-width: 100%;
     height: 40px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
+    margin: 0;
+  }
+  .logotip {
+    height: 40px;
   }
 
   .header__logo {
-    width: 180px;
+    width: 1024px;
     height: 40px;
     background-color: rgb(238, 54, 67);
     color: #ebeaf3;
@@ -1323,7 +1303,7 @@ table {
   }
 
   .input__search {
-    width: 200px;
+    width: 500px;
     height: 40px;
     margin-right: 30px;
     padding-left: 35px;
@@ -1425,6 +1405,37 @@ table {
   .header__order:active {
     color: #ebeaf3;
   }
+
+  .burger {
+    width: 15px;
+    height: 13px;
+    position: absolute;
+
+    right: 0;
+  }
+  .burger__button {
+    position: absolute;
+    width: 15px;
+    height: 1px;
+    top: 48%;
+    background: white;
+  }
+  .burger::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 15px;
+    height: 1px;
+    background: white;
+  }
+  .burger::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 15px;
+    height: 1px;
+    background: white;
+  }
   .header__frame {
     width: 1200px;
     height: 278px;
@@ -1522,7 +1533,6 @@ table {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0px 160px 0px;
   }
   .header__menu {
     width: 110px;
